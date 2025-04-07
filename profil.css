@@ -1,0 +1,100 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background dengan Gradient */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    background: url(https://i.pinimg.com/736x/d8/56/a5/d856a5fefc0833da9eba0a615dbd1c37.jpg) no-repeat center center/cover;
+}
+
+/* Container profil */
+.profile-container {
+    background: rgba(255, 255, 255, 0.1);
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+/* Header */
+h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Style untuk input */
+.input-group {
+    text-align: left;
+    margin: 15px 0;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: whitesmoke;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Tombol Update */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: linear-gradient(45deg, #ff9800, #e65100);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #e65100, #ff9800);
+    transform: scale(1.05);
+}
+
+/* Link Logout */
+.logout {
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: #d32f2f;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.logout:hover {
+    background: #b71c1c;
+}

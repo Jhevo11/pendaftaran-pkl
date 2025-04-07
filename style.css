@@ -1,0 +1,141 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background dengan Gambar */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://i.pinimg.com/736x/d8/56/a5/d856a5fefc0833da9eba0a615dbd1c37.jpg') no-repeat center center/cover;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+/* Overlay Gelap agar Tulisan Jelas */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+/* Teks Utama */
+h1 {
+    font-size: 3.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Tombol */
+.btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #ff9800, #e65100);
+    color: white;
+    padding: 12px 30px;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #e65100, #ff9800);
+    transform: scale(1.05);
+}
+
+/* Popup */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tampilkan Popup saat Target */
+.popup:target {
+    display: flex;
+}
+
+/* Konten Popup */
+.popup-content {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    color: whitesmoke;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+/* Tombol Close */
+.close {
+    position: absolute;
+    top: 10px; right: 15px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+}
+
+.close:hover {
+    color: darkred;
+}
+
+/* Input Form */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Tombol Form */
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(45deg, #ff9800, #e65100);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #e65100, #ff9800);
+    transform: scale(1.05);
+}
