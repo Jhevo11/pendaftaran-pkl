@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
-$user = "root";  // Sesuaikan dengan user MySQL kamu
-$pass = "";  // Sesuaikan dengan password MySQL kamu
+$user = "root";
+$pass = "";
 $db = "pkl_db";
 
 $conn = mysqli_connect($host, $user, $pass, $db);

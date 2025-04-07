@@ -12,7 +12,6 @@
     <!-- Teks di Tengah -->
     <h1>Selamat Datang di Sarastya Technology</h1>
     <p>Bergabunglah dalam program PKL di Sarastya Technology dan dapatkan pengalaman nyata di industri teknologi.<br>
-        <!-- Daftar sekarang, pilih posisi yang sesuai, dan mulai perjalanan magang Anda bersama kami!<br> -->
         Klik tombol di bawah untuk login atau daftar dan jadilah bagian dari inovasi bersama Sarastya Technology!</p>
 
     <!-- Tombol Login & Register -->

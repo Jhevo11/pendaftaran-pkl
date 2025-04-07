@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Profile</title>
-    <link rel="stylesheet" href="profil.css"> <!-- Menghubungkan ke file CSS -->
+    <link rel="stylesheet" href="profil.css">
 </head>
 <body>
     <div class="profile-container">

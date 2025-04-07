@@ -22,7 +22,6 @@ body {
     position: relative;
 }
 
-/* Overlay Gelap agar Tulisan Jelas */
 body::before {
     content: "";
     position: absolute;
@@ -79,7 +78,6 @@ p {
     align-items: center;
 }
 
-/* Tampilkan Popup saat Target */
 .popup:target {
     display: flex;
 }
